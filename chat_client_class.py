@@ -24,7 +24,7 @@ class Client:
         return self.name
         
     def init_chat(self):
-        self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM )
+        self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         
         # if len(argv) > 1, we assume they're giving an IP address to connect to
         # else, use the localhost as defined in chat_utils.py
